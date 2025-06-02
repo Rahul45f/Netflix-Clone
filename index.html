@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Netflix Clone - Watch popular TV shows and movies online. Join today!">
+    <meta name="keywords" content="Netflix, clone, movies, TV shows, watch online">
+    <meta name="author" content="Empty-Hacker">
+
+    <title>Netflix - Watch TV Shows Online, Watch Movies Online</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar_netflix">
+            <img src="logo.png" alt="Netflix Logo" class="netflix_logo" />
+        </div>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#trending">Trending</a></li>
+            <li><a href="#shows">Popular Shows</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+        </ul>
+    </nav>
+
+
+    <!-----Hero Section----->
+    <section id="hero" class="hero">
+        <div class="leftsection">
+            <img src="netflix.svg" alt="Netflix SVG">
+        </div>
+        <div class="rightsection">
+            <h1>Explore the World of Entertainment</h1>
+            <p>Find trending movies, popular shows, and top user reviews all in one place!</p>
+            <a href="#trending" class="cta-button">Discover Now</a>
+        </div>
+    </section>
+
+
+    <!-- --- Trending Movies --- -->
+    <section id="trending" class="trending">
+        <h2>Trending Movies</h2>
+        <div class="movie-grid">
+            <div class="movie-card">
+                <img src="missin impossible.jpg" alt="Movie 1">
+                <p class="movie-duration">2:30</p>
+                <p class="moviename">Mission Impossible</p>
+                <p class="desc">
+                    This is the description of the movie Dead Reckoning
+                </p>
+            </div>
+            <div class="movie-card">
+                <img src="missin impossible.jpg" alt="Movie 2">
+                <p class="movie-duration">2:30</p>
+                <p class="moviename">Mission Impossible</p>
+                <p class="desc">
+                    This is the description of the movie Dead Reckoning
+                </p>
+            </div>
+            <div class="movie-card">
+                <img src="missin impossible.jpg" alt="Movie 3">
+                <p class="movie-duration">2:30</p>
+                <p class="moviename">Mission Impossible</p>
+                <p class="desc">
+                    This is the description of the movie Dead Reckoning
+                </p>
+            </div>
+            <div class="movie-card">
+                <img src="missin impossible.jpg" alt="Movie 4">
+                <p class="movie-duration">2:30</p>
+                <p class="moviename">Mission Impossible</p>
+                <p class="desc">
+                    This is the description of the movie Dead Reckoning
+                </p>
+            </div>
+            <div class="movie-card">
+                <img src="missin impossible.jpg" alt="Movie 5">
+                <p class="movie-duration">2:30</p>
+                <p class="moviename">Mission Impossible</p>
+                <p class="desc">
+                    This is the description of the movie Dead Reckoning
+                </p>
+            </div>
+            <div class="movie-card">
+                <img src="missin impossible.jpg" alt="Movie 6">
+                <p class="movie-duration">2:30</p>
+                <p class="moviename">Mission Impossible</p>
+                <p class="desc">
+                    This is the description of the movie Dead Reckoning
+                </p>
+            </div>
+        </div>
+        <a href="#shows" class="watchnextbtn">Watch Next</a>
+    </section>
+
+
+    <!-- Popular Shows -->
+    <section id="shows" class="popular-shows">
+        <h2>Popular Shows</h2>
+        <div class="show-list">
+            <div class="show-card">
+                <img src="sikandar.jpg" alt="Show 1">
+                <p class="movie-duration">2:30</p>
+                <p class="moviename">Sikandar</p>
+                <p class="genre">Genre:- Drama</p>
+                <p class="episode">S03E12</p>
+            </div>
+            <div class="show-card">
+                <img src="sikandar.jpg" alt="Show 2">
+                <p class="movie-duration">2:30</p>
+                <p class="moviename">Sikandar</p>
+                <p class="genre">Genre:- Drama</p>
+                <p class="episode">S03E12</p>
+            </div>
+            <div class="show-card">
+                <img src="sikandar.jpg" alt="Show 3">
+                <p class="movie-duration">2:30</p>
+                <p class="moviename">Sikandar</p>
+                <p class="genre">Genre:- Drama</p>
+                <p class="episode">S03E12</p>
+            </div>
+            <div class="show-card">
+                <img src="sikandar.jpg" alt="Show 4">
+                <p class="movie-duration">2:30</p>
+                <p class="moviename">Sikandar</p>
+                <p class="genre">Genre:- Drama</p>
+                <p class="episode">S03E12</p>
+            </div>
+            <div class="show-card">
+                <img src="sikandar.jpg" alt="Show 5">
+                <p class="movie-duration">2:30</p>
+                <p class="moviename">Sikandar</p>
+                <p class="genre">Genre:- Drama</p>
+                <p class="episode">S03E12</p>
+            </div>
+            <div class="show-card">
+                <img src="sikandar.jpg" alt="Show 6">
+                <p class="movie-duration">2:30</p>
+                <p class="moviename">Sikandar</p>
+                <p class="genre">Genre:- Drama</p>
+                <p class="episode">S03E12</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- User Reviews -->
+    <section id="reviews" class="reviews">
+        <h2>User Reviews</h2>
+        <div class="leftside">
+            <blockquote>"Absolutely amazing selection of movies!" - User A</blockquote>
+            <blockquote>"Love the trending section. Super helpful!" - User B</blockquote>
+        </div>
+        <div class="rightside"><h2>Write your reviews</h2>
+            <blockquote>
+                <input type="text" class="name" id="name" name="Name" placeholder="Enter your name">
+            </blockquote>
+            <blockquote>
+                <input type="text" class="review" id="Review" name="Review" placeholder="Write your Review">
+            </blockquote>
+            <button class="submitbtn">Submit</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Media Discovery. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a> |
+            <a href="#">Terms of Use</a>
+        </div>
+        <div>
+            <a href="#hero" class="gotopbtn">Go to top</a>
+        </div>
+    </footer>
+
+    
+
+</body>
+
+</html>
